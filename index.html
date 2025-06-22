@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Harsh <span>Daki</span></a>
+
+      <i id="menu-icon" class="bx bx-menu"></i>
+      <nav>
+        <div class="menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="image.jpg" />
+      </div>
+      <div class="home-content">
+        <h1>It's <span>Harsh</span></h1>
+        <h3 class="text-animation">I'm a Skilled in <span></span></h3>
+        <p>
+          I’m a passionate PHP and Laravel developer with a focus on clean,
+          responsive web design. Skilled in HTML, CSS, Bootstrap, JavaScript,
+          and back-end development, I enjoy creating websites that are both
+          functional and visually appealing. 👇 Think I’m the right fit? Click
+          below to hire me!
+        </p>
+        <div class="social-icone">
+          <a
+            href="https://www.linkedin.com/in/harsh-daki-693a3b2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/harsh_daki_1204?igsh=ZDExYjZkNGI0OA=="
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://github.com/harshdaki"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://mobile.x.com/Harsh_daki"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation"><i>Skilled in </i><span></span></h3>
+        <p>
+          <b>
+            My name is Daki Harshkumar. I am 21 years old and currently living
+            in Porbandar, Gujarat. I recently completed my BCA from Dr. V.R.
+            Godhaniya College, and I specialize in creating clean, responsive,
+            and dynamic web applications. I’m skilled in PHP, Laravel, HTML,
+            CSS, Bootstrap, and JavaScript — with a strong interest in both
+            front-end design and back-end development. I'm eager to grow as a
+            developer and take on exciting opportunities in web development. 📄
+            Want to know more? 👇 Click below to download my CV.
+          </b>
+        </p>
+
+        <a href="HarshkumarDakiResume (4)-1.pdf" class="btn" download
+          >Download CV</a
+        >
+      </div>
+      <div class="about-img">
+        <img src="image.jpg" alt="" />
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">💻 My Projects</h2>
+      <div class="projects-container">
+        <div class="project-box">
+          <div class="project-info">
+            <h4><b>🔹Auto Service and Vehicle Care</b></h4>
+            <p>
+              A web-based platform designed to streamline vehicle maintenance
+              services. Developed using HTML, CSS, Bootstrap, JavaScript, PHP,
+              and MySQL, this project allows users to conveniently manage
+              various auto service needs online.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <div class="project-info">
+            <h4><b>🔹Portfolio Website</b></h4>
+            <p>
+              Designed and developed a responsive personal portfolio website
+              using HTML, CSS, Bootstrap, and JavaScript to showcase my
+              projects, skills, and contact information. The site features a
+              clean and modern layout with interactive elements and smooth
+              navigation.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <div class="project-info">
+            <h4><b>🔹Restaurant Management System</b></h4>
+            <p>
+              An Android-based application developed as a 6th semester project
+              to efficiently manage restaurant operations. It simplifies
+              day-to-day tasks for cooks, waiters, and administrators, ensuring
+              smooth coordination and improved service delivery.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <div class="project-info">
+            <h4><b>🔹Day Planner Application</b></h4>
+            <p>
+              A responsive and user-friendly day planner web application built
+              with HTML, CSS, Bootstrap, and JavaScript. It helps users organize
+              and visualize daily tasks with a clean interface and real-time
+              functionality. The project is deployed on Netlify for live access.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <div class="project-info">
+            <h4><b>🚀 Explore My Projects on GitHub</b></h4>
+            <p>
+              You can find all my latest web development and design projects on
+              my GitHub profile. Feel free to explore the code, see live demos,
+              and track my progress as a developer. 🔗
+              <a href="https://github.com/harshdaki" target="_blank"
+                >Visit My GitHub Profile</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Your contact form below (unchanged) -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form method="POST" action="email-send.php">
+        <div class="input-box">
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Full Name 😉"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Email 💌"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Enter Phone Number 📞"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Enter Subject 📚"
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message 🗯️"
+          required
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/harsh-daki-693a3b2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/harsh_daki_1204?igsh=ZDExYjZkNGI0OA=="
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="https://github.com/harshdaki"><i class="bx bxl-github"></i></a>
+        <a href="https://mobile.x.com/Harsh_daki"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <ul class="list">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">
+        © 2025 Harsh Daki. All rights reserved. Designed & Developed by Harsh
+        Daki.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
